@@ -1,3 +1,10 @@
+# Updates by me
+changed spatial page and mushra page. Spatial page now makes it possible to klick in a 2D plot. Mushra: stop playback when other stimuli is klicked on
+more than one spatial plot on one page, points can be set independently thanks to the help from https://github.com/ryyppy
+
+Limitations:
+on chrome the rendering seems to have a limit of ~20 view plots per configuration file. I created redirects to different config file at finish.
+
 # webMUSHRA
 [![GitHub release](https://img.shields.io/github/release/audiolabs/webMUSHRA.svg)](https://github.com/audiolabs/webMUSHRA/releases/latest)
 [![Github All Releases](https://img.shields.io/github/downloads/audiolabs/webMUSHRA/total.svg)](https://github.com/audiolabs/webMUSHRA/releases/latest)
