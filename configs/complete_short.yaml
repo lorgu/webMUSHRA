@@ -1,0 +1,79 @@
+testname: complete Test
+testId: complete_test
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+language: de
+remoteService: service/write.php
+
+pages:
+ - type: generic
+   id: randomized_pages
+   name: Random
+   content: The next tests appear in randomized order.
+ -
+  - random   
+  -                                 
+   - type: generic
+     id: bs1116_instructions
+     name: BS.1116
+     content: The next pages show you some examples of BS.1116 listening tests.   
+   - type: bs1116
+     id: bs1116_nowav
+     name: BS 11.16 test
+     content: This is a BS1116 page without waveform but with looping.
+     showWaveform: false
+     enableLooping: true 
+     reference: configs/resources/audio/mono_c1.wav
+     createAnchor35: false
+     createAnchor70: false
+     stimuli:
+      C1: configs/resources/audio/mono_c1.wav
+      C2: configs/resources/audio/mono_c2.wav
+      C3: configs/resources/audio/mono_c3.wav
+ - type: mushra
+   id: mushra
+   name: MUSHRA 
+   content: This is a MUSHRA page with enabled looping and waveform but without anchors.
+   showWaveform: true
+   enableLooping: true 
+   reference: configs/resources/audio/mono_c1.wav
+   createAnchor35: false
+   createAnchor70: false
+   stimuli:
+     C1: configs/resources/audio/mono_c1.wav
+     C2: configs/resources/audio/mono_c2.wav
+     C3: configs/resources/audio/mono_c3.wav                    
+ - type: finish
+   name: Thank you
+   content: Thank you for attending!
+   popupContent: Your results were sent. Goodbye and have a nice day   
+   showResults: true
+   showErrors: true
+   writeResults: true
+   questionnaire:
+       - type: text
+         label: eMail
+         name: email
+         optional: false
+       - type: number
+         label: Age
+         name: age
+         optional: true
+         min: 0
+         max: 100
+         default: 30
+       - type: likert
+         name: gender
+         label: Gender
+         response:
+          - value: female
+            label: Female
+          - value: male
+            label: Male
+          - value: other
+            label: Other
+       - type: long_text
+         label: Feedback
+         name: feedback
+         optional: true

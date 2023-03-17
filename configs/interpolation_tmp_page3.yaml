@@ -1,0 +1,203 @@
+testname: Sprecherherkunft
+testId: interpolation
+# bufferSize: 2048
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: false
+remoteService: service/write.php
+# language: de
+
+pages:
+  - type: spatial
+    id : test_page8
+    name: Seite 8 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.5_0.0_0.5.wav
+        C2: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.0_0.5_0.5.wav
+        C3: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.0_0.5_0.5.wav
+        C4: configs/resources/audio/3dim/WS22_VE.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: None
+  - type: spatial
+    id : test_page9
+    name: Seite 9 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS20_MZ.wav
+        C2: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.42_0.42_0.16.wav
+        C3: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.33_0.33_0.33.wav
+        C4: configs/resources/audio/3dim/WS28_MZ.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 10
+        height: 50
+        depth: 20
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: listener
+        position: [0,150,-1000]
+        rotation: [0,0,180]
+  - type: spatial
+    id : test_page_10
+    name: Seite 10 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.5_0.5_0.0.wav
+        C2: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.42_0.42_0.16.wav
+        C3: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.33_0.33_0.33.wav
+        C4: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.25_0.25_0.5.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 50
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 10
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 5
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: listener
+        position: [0,150,-1000]
+        rotation: [0,0,180]
+  - type: finish
+    name: Thank you
+    content: Thank you for attending
+    showResults: false
+    writeResults: true
+    questionnaire:
+        - type: text
+          label: name/shortname/nickname
+          name: email

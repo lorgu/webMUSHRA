@@ -1,0 +1,113 @@
+testname: Localization test
+testId: spatial
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: false
+remoteService: service/write.php
+pages:
+    - type: spatial
+      id : test_page
+      name: localization of a stimulus
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,50,0]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        # - type: listener
+        #   position: [0,250,-100]
+        #   rotation: [0,0,180]
+        # - type: listener
+        #   position: [100,100,100]
+        #   rotation: [0,0,180]
+        # - type: listener
+        #   position: [-100,100,100]
+        #   rotation: [0,0,180]
+        - type: custom
+          path: configs/resources/images/DE.dae
+          position: [-30,0,-100]
+          rotation: [0,0,0]
+          scale: 0.6
+        - type: custom
+          path: configs/resources/images/AT.dae
+          position: [70,0,100]
+          rotation: [0,0,0]
+          scale: 0.6
+        - type: custom
+          path: configs/resources/images/CH.dae
+          position: [-130,0,100]
+          rotation: [0,0,0]
+          scale: 0.6
+        - type: custom
+          path: configs/resources/images/triangle_only.dae
+          position: [0,0,540]
+          rotation: [0,0,0]
+          scale: 2
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      showResults: false
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: name/shortname/nickname
+            name: email
+          # - type: number
+          #   label: Age
+          #   name: age
+          #   min: 0
+          #   max: 100
+          #   default: 30
+          # - type: likert
+          #   name: gender
+          #   label: Gender
+          #   response:
+          #    - value: female
+          #      label: Female
+          #    - value: male
+          #      label: Male
+          #    - value: other
+          #      label: Other
+          # - type: likert
+          #   name: expert_timbre
+          #   label: Are you an expert listener in judging timbre? 
+          #   response:
+          #    - value: no
+          #      label: No
+          #    - value: yes
+          #      label: Yes
+          # - type: likert
+          #   name: expert_spatial
+          #   label: Are you an expert listener in spatial audio? 
+          #   response:
+          #    - value: no
+          #      label: No
+          #    - value: yes
+          #      label: Yes
+          # - type: likert
+          #   name: listening_test_experience
+          #   label: Have you taken part in a listening test about spatial attributes yet? 
+          #   response:
+          #    - value: no
+          #      label: No
+          #    - value: yes
+          #      label: Yes
+          # - type: likert
+          #   name: professional
+          #   label: Do you have a background in professional audio (e.g. sound/recording engineer, researcher)? 
+          #   response:
+          #    - value: no
+          #      label: No
+          #    - value: yes
+          #      label: Yes

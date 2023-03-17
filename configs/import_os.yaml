@@ -1,0 +1,23 @@
+import os
+import wave
+
+def get_longest_wav_file():
+    # Get all WAV files in the current directory
+    wav_files = [file for file in os.listdir() if file.endswith(".wav")]
+    
+    if not wav_files:
+        return None
+    
+    longest_duration = 0
+    longest_wav_file = ""
+    
+    # Find the WAV file with the longest duration
+    for file in wav_files:
+        with wave.open(file, 'r') as wav:
+            duration = wav.getnframes() / float(wav.getframerate())
+            if duration > longest_duration:
+                longest_duration = duration
+                longest_wav_file = file
+    
+    print(duration)
+    return longest_wav_file

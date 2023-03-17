@@ -1,0 +1,920 @@
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.5_0.0_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.33_0.33_0.33.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.0_0.5_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.5_0.5_0.0.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.0_0.5_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.5_0.5_0.0.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_VE.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_VE.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.33_0.33_0.33.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.5_0.0_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.5_0.0_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.42_0.42_0.16.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.0_0.5_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.5_0.5_0.0.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.33_0.33_0.33.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.5_0.5_0.0.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.42_0.42_0.16.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS21_VE.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_VE.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.42_0.42_0.16.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.5_0.0_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.5_0.0_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.0_0.5_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.0_0.5_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_VE.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.42_0.42_0.16.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.33_0.33_0.33.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.5_0.5_0.0.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.42_0.42_0.16.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.33_0.33_0.33.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]
+    - type: spatial
+      id : test_page
+      name: Sprecherherkunft Teil 2
+      content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+      framerate: 100
+      roomMeasurements: [300, 300, 300]  # width, height, length
+      stimuli:
+          C1: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.25_0.25_0.5.wav
+      responses:
+        - type: localization
+          name: locB
+          label: HIER klicken, dann Punkt setzen
+          color: 0xff5500      
+          stimulus: C1    
+          position: [0,0,25]
+          size: 20
+      views: 
+        - view: top
+          position: [0,50,0]
+      objects: 
+        - type: listener
+          position: [0,250,-1000]
+          rotation: [0,0,180]

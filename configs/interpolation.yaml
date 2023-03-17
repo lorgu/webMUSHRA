@@ -1,0 +1,62 @@
+testname: Sprecherherkunft
+testId: lss_lms
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+
+pages:
+    - type: generic
+      id: LSS_LMS
+      name: Einführung
+      content: <ul> <li>Bitte geben Sie an, aus welcher Region Ihrer Meinung nach die Sprecher*innen stammen</li>
+
+    - type: likert_multi_stimulus
+      id: lms2
+      name: Sprachbeispiele
+      content: Die Person kommt aus?
+      stimuli:
+          C1: configs/resources/audio/AT_DE/WS21_MZ-AW-VE_0.2_0.8_0.0.wav
+          C2: configs/resources/audio/AT_DE/WS21_MZ-AW-VE_0.4_0.6_0.0.wav
+          C3: configs/resources/audio/AT_DE/WS21_MZ-AW-VE_0.5_0.5_0.0.wav
+          C4: configs/resources/audio/AT_DE/WS21_MZ-AW-VE_0.6_0.4_0.0.wav
+          C5: configs/resources/audio/AT_DE/WS21_MZ-AW-VE_0.8_0.2_0.0.wav
+
+      response:
+        - value: Österreich
+          label: "    Österreich"
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: eher Österreich
+          label: eher Österreich
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: unentschieden
+          label: unentschieden
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: eher Deutschland
+          label: eher Deutschland
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Deutschland
+          label: Deutschland
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png          
+
+
+
+    - type: finish
+      name: Danke
+      content: Vielen Dank für die Teilnahme
+      showResults: true
+      writeResults: true
+  
+            

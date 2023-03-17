@@ -241,14 +241,16 @@ for($i =0; $i < $length; $i++){
 	array_push($input, $session->participant->name[$i]);
 }
 array_push($input,  "trial_id");
-$ratingCount = count($session->trials[0]->responses[0]->stimulusRating);
-if($ratingCount > 1) {
-    for($i =0; $i < $ratingCount; $i++){
-        array_push($input, "stimuli_rating" . ($i+1));
-    }
-} else {
-    array_push($input, "stimuli_rating");
-}
+// echo "huhu";
+// $ratingCount = count($session->trials[0]->responses[0]->stimulusRating);
+// if($ratingCount > 1) {
+//     for($i =0; $i < $ratingCount; $i++){
+//         array_push($input, "stimuli_rating" . ($i+1));
+//     }
+// } else {
+//     array_push($input, "stimuli_rating");
+// }
+array_push($input, "stimuli_rating");
 array_push($input, "stimuli", "rating_time");
 array_push($lssCSVdata, $input);
 

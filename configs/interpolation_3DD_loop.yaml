@@ -1,0 +1,57 @@
+testname: Localization test
+testId: spatial
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: false
+remoteService: service/write.php
+
+# define a list of audio file names
+audioFiles:
+  - WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  # - WS5_MZ-AW-VE_0.33_0.33_0.33.wav
+  # - WS5_MZ-AW-VE_0.42_0.42_0.16.wav
+
+# iterate over the audio file names and create a page for each one
+pages:
+  {% for audioFile in audioFiles %}
+  - type: spatial
+    id: test_page_{{ loop.index }}
+    name: Localization of {{ audioFile }}
+    content: <li>Woher stammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    stimuli:
+      C1: configs/resources/audio/{{ audioFile }}
+    responses:
+      - type: localization
+        name: locB
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500
+        stimulus: C1
+        position: [0,50,0]
+        size: 20
+    views:
+      - view: top
+        position: [0,50,0]
+    objects:
+      - type: custom
+        path: configs/resources/images/DE.dae
+        position: [-30,0,-100]
+        rotation: [0,0,0]
+        scale: 0.6
+      - type: custom
+        path: configs/resources/images/AT.dae
+        position: [70,0,100]
+        rotation: [0,0,0]
+        scale: 0.6
+      - type: custom
+        path: configs/resources/images/CH.dae
+        position: [-130,0,100]
+        rotation: [0,0,0]
+        scale: 0.6
+      - type: custom
+        path: configs/resources/images/triangle_only.dae
+        position: [0,0,540]
+        rotation: [0,0,0]
+        scale: 2
+  {% endfor %}

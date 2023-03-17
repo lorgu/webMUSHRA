@@ -85,6 +85,12 @@ function addPagesToPageManager(_pageManager, _pages) {
       } else if (pageConfig.type == "mushra") {
         var mushraPage = new MushraPage(_pageManager, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, config.language);
         _pageManager.addPage(mushraPage);
+      } else if (pageConfig.type == "mushra_de") {
+        var mushraPage_de = new MushraPage_de(_pageManager, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, config.language);
+        _pageManager.addPage(mushraPage_de);
+      } else if (pageConfig.type == "mushra_de_ch") {
+        var mushraPage_de_ch = new MushraPage(_pageManager, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, "ch");
+        _pageManager.addPage(mushraPage_de_ch);
       } else if ( pageConfig.type == "spatial"){
         _pageManager.addPage(new SpatialPage(_pageManager, pageConfig, session, audioContext, config.bufferSize, audioFileLoader, errorHandler, config.language));
       } else if (pageConfig.type == "paired_comparison") {
@@ -221,6 +227,7 @@ function getParameterByName(name) {
 
 var config = null;
 var configArg = getParameterByName("config");
+var emailArg = getParameterByName("email");
 var configFile = '';
 if (configArg) {
   configFile = 'configs/' + configArg;

@@ -1,0 +1,973 @@
+testname: Sprecherherkunft
+testId: interpolation
+# bufferSize: 2048
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+# language: de
+
+pages:
+  - type: generic
+    id: Einfuehrung
+    name: Einführung
+    content: Bitte geben Sie an, aus welcher Region Ihrer Meinung nach die Sprecher*innen stammen!
+# AT_DE:
+  - type: mushra
+    id: AT_DE1
+    name: Sprecherherkunft AT - DE
+    content: Die Person kommt aus Deutschland oder Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_DE_same_dur/WS21_MZ-AW-VE_0.2_0.8_0.0.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_DE_same_dur/WS20_MZ-AW-VE_0.8_0.2_0.0.wav
+        C2: configs/resources/audio/AT_DE_same_dur/WS28_MZ-AW-VE_0.4_0.6_0.0.wav
+        C3: configs/resources/audio/AT_DE_same_dur/WS28_MZ-AW-VE_0.5_0.5_0.0.wav
+        C4: configs/resources/audio/AT_DE_same_dur/WS21_MZ-AW-VE_0.8_0.2_0.0.wav
+        C5: configs/resources/audio/AT_DE_same_dur/WS5_MZ-AW-VE_0.2_0.8_0.0.wav
+        C6: configs/resources/audio/AT_DE_same_dur/WS22_MZ-AW-VE_0.6_0.4_0.0.wav
+  - type: mushra
+    id: AT_DE2
+    name: Sprecherherkunft AT - DE
+    content: Die Person kommt aus Deutschland oder Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_DE_same_dur/WS20_MZ-AW-VE_0.6_0.4_0.0.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_DE_same_dur/WS20_MZ-AW-VE_0.5_0.5_0.0.wav
+        C2: configs/resources/audio/AT_DE_same_dur/WS5_MZ-AW-VE_0.6_0.4_0.0.wav
+        C3: configs/resources/audio/AT_DE_same_dur/WS20_MZ.wav
+        C4: configs/resources/audio/AT_DE_same_dur/WS21_MZ-AW-VE_0.6_0.4_0.0.wav
+        C5: configs/resources/audio/AT_DE_same_dur/WS20_MZ-AW-VE_0.2_0.8_0.0.wav
+        C6: configs/resources/audio/AT_DE_same_dur/WS5_MZ-AW-VE_0.5_0.5_0.0.wav
+  - type: mushra
+    id: AT_DE3
+    name: Sprecherherkunft AT - DE
+    content: Die Person kommt aus Deutschland oder Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_DE_same_dur/WS21_MZ.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_DE_same_dur/WS5_MZ-AW-VE_0.4_0.6_0.0.wav
+        C2: configs/resources/audio/AT_DE_same_dur/WS5_MZ-AW-VE_0.8_0.2_0.0.wav
+        C3: configs/resources/audio/AT_DE_same_dur/WS28_MZ-AW-VE_0.8_0.2_0.0.wav
+        C4: configs/resources/audio/AT_DE_same_dur/WS22_MZ-AW-VE_0.4_0.6_0.0.wav
+        C5: configs/resources/audio/AT_DE_same_dur/WS22_MZ-AW-VE_0.2_0.8_0.0.wav
+        C6: configs/resources/audio/AT_DE_same_dur/WS22_AW.wav
+  - type: mushra
+    id: AT_DE4
+    name: Sprecherherkunft AT - DE
+    content: Die Person kommt aus Deutschland oder Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_DE_same_dur/WS22_MZ.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_DE_same_dur/WS21_MZ-AW-VE_0.4_0.6_0.0.wav
+        C2: configs/resources/audio/AT_DE_same_dur/WS21_AW.wav
+        C3: configs/resources/audio/AT_DE_same_dur/WS22_MZ-AW-VE_0.8_0.2_0.0.wav
+        C4: configs/resources/audio/AT_DE_same_dur/WS5_AW.wav
+        C5: configs/resources/audio/AT_DE_same_dur/WS20_AW.wav
+        C6: configs/resources/audio/AT_DE_same_dur/WS22_MZ-AW-VE_0.5_0.5_0.0.wav
+  - type: mushra
+    id: AT_DE5
+    name: Sprecherherkunft AT - DE
+    content: Die Person kommt aus Deutschland oder Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_DE_same_dur/WS28_MZ-AW-VE_0.6_0.4_0.0.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_DE_same_dur/WS28_AW.wav
+        C2: configs/resources/audio/AT_DE_same_dur/WS20_MZ-AW-VE_0.4_0.6_0.0.wav
+        C3: configs/resources/audio/AT_DE_same_dur/WS28_MZ.wav
+        C4: configs/resources/audio/AT_DE_same_dur/WS28_MZ-AW-VE_0.2_0.8_0.0.wav
+        C5: configs/resources/audio/AT_DE_same_dur/WS5_MZ.wav
+        C6: configs/resources/audio/AT_DE_same_dur/WS21_MZ-AW-VE_0.5_0.5_0.0.wav
+# AT_CH:
+  - type: mushra
+    id: AT_CH1
+    name: Sprecherherkunft AT - CH
+    content: Die Person kommt aus Österreich oder der Schweiz?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_CH_same_dur/WS5_MZ-AW-VE_0.4_0.0_0.6.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_CH_same_dur/WS22_MZ.wav
+        C2: configs/resources/audio/AT_CH_same_dur/WS28_MZ-AW-VE_0.6_0.0_0.4.wav
+        C3: configs/resources/audio/AT_CH_same_dur/WS22_MZ-AW-VE_0.2_0.0_0.8.wav
+        C4: configs/resources/audio/AT_CH_same_dur/WS5_VE.wav
+        C5: configs/resources/audio/AT_CH_same_dur/WS20_MZ.wav
+        C6: configs/resources/audio/AT_CH_same_dur/WS20_VE.wav
+  - type: mushra
+    id: AT_CH2
+    name: Sprecherherkunft AT - CH
+    content: Die Person kommt aus Österreich oder der Schweiz?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_CH_same_dur/WS21_MZ-AW-VE_0.6_0.0_0.4.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_CH_same_dur/WS20_MZ-AW-VE_0.8_0.0_0.2.wav
+        C2: configs/resources/audio/AT_CH_same_dur/WS5_MZ-AW-VE_0.6_0.0_0.4.wav
+        C3: configs/resources/audio/AT_CH_same_dur/WS21_VE.wav
+        C4: configs/resources/audio/AT_CH_same_dur/WS22_MZ-AW-VE_0.4_0.0_0.6.wav
+        C5: configs/resources/audio/AT_CH_same_dur/WS20_MZ-AW-VE_0.5_0.0_0.5.wav
+        C6: configs/resources/audio/AT_CH_same_dur/WS20_MZ-AW-VE_0.6_0.0_0.4.wav
+  - type: mushra
+    id: AT_CH3
+    name: Sprecherherkunft AT - CH
+    content: Die Person kommt aus Österreich oder der Schweiz?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_CH_same_dur/WS21_MZ-AW-VE_0.5_0.0_0.5.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_CH_same_dur/WS22_MZ-AW-VE_0.8_0.0_0.2.wav
+        C2: configs/resources/audio/AT_CH_same_dur/WS22_MZ-AW-VE_0.5_0.0_0.5.wav
+        C3: configs/resources/audio/AT_CH_same_dur/WS28_MZ-AW-VE_0.4_0.0_0.6.wav
+        C4: configs/resources/audio/AT_CH_same_dur/WS28_MZ-AW-VE_0.5_0.0_0.5.wav
+        C5: configs/resources/audio/AT_CH_same_dur/WS20_MZ-AW-VE_0.4_0.0_0.6.wav
+        C6: configs/resources/audio/AT_CH_same_dur/WS21_MZ-AW-VE_0.4_0.0_0.6.wav
+  - type: mushra
+    id: AT_CH4
+    name: Sprecherherkunft AT - CH
+    content: Die Person kommt aus Österreich oder der Schweiz?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_CH_same_dur/WS21_MZ-AW-VE_0.2_0.0_0.8.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_CH_same_dur/WS5_MZ-AW-VE_0.2_0.0_0.8.wav
+        C2: configs/resources/audio/AT_CH_same_dur/WS21_MZ.wav
+        C3: configs/resources/audio/AT_CH_same_dur/WS28_MZ-AW-VE_0.8_0.0_0.2.wav
+        C4: configs/resources/audio/AT_CH_same_dur/WS5_MZ-AW-VE_0.5_0.0_0.5.wav
+        C5: configs/resources/audio/AT_CH_same_dur/WS5_MZ-AW-VE_0.8_0.0_0.2.wav
+        C6: configs/resources/audio/AT_CH_same_dur/WS22_MZ-AW-VE_0.6_0.0_0.4.wav
+  - type: mushra
+    id: AT_CH5
+    name: Sprecherherkunft AT - CH
+    content: Die Person kommt aus Österreich oder der Schweiz?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/AT_CH_same_dur/WS28_VE.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/AT_CH_same_dur/WS5_MZ.wav
+        C2: configs/resources/audio/AT_CH_same_dur/WS20_MZ-AW-VE_0.2_0.0_0.8.wav
+        C3: configs/resources/audio/AT_CH_same_dur/WS22_VE.wav
+        C4: configs/resources/audio/AT_CH_same_dur/WS28_MZ.wav
+        C5: configs/resources/audio/AT_CH_same_dur/WS21_MZ-AW-VE_0.8_0.0_0.2.wav
+        C6: configs/resources/audio/AT_CH_same_dur/WS28_MZ-AW-VE_0.2_0.0_0.8.wav
+
+# CH_DE:
+  - type: mushra
+    id: CH_DE1
+    name: Sprecherherkunft CH - DE
+    content: Die Person kommt aus der Schweiz oder aus Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/CH_DE_same_dur/WS28_VE.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/CH_DE_same_dur/WS5_MZ-AW-VE_0.0_0.4_0.6.wav
+        C2: configs/resources/audio/CH_DE_same_dur/WS20_MZ-AW-VE_0.0_0.4_0.6.wav
+        C3: configs/resources/audio/CH_DE_same_dur/WS21_MZ-AW-VE_0.0_0.5_0.5.wav
+        C4: configs/resources/audio/CH_DE_same_dur/WS22_MZ-AW-VE_0.0_0.4_0.6.wav
+        C5: configs/resources/audio/CH_DE_same_dur/WS5_AW.wav
+        C6: configs/resources/audio/CH_DE_same_dur/WS28_MZ-AW-VE_0.0_0.2_0.8.wav
+  - type: mushra
+    id: CH_DE2
+    name: Sprecherherkunft CH - DE
+    content: Die Person kommt aus der Schweiz oder aus Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/CH_DE_same_dur/WS5_VE.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/CH_DE_same_dur/WS22_MZ-AW-VE_0.0_0.2_0.8.wav
+        C2: configs/resources/audio/CH_DE_same_dur/WS28_MZ-AW-VE_0.0_0.6_0.4.wav
+        C3: configs/resources/audio/CH_DE_same_dur/WS5_MZ-AW-VE_0.0_0.2_0.8.wav
+        C4: configs/resources/audio/CH_DE_same_dur/WS21_AW.wav
+        C5: configs/resources/audio/CH_DE_same_dur/WS5_MZ-AW-VE_0.0_0.6_0.4.wav
+        C6: configs/resources/audio/CH_DE_same_dur/WS28_AW.wav
+  - type: mushra
+    id: CH_DE3
+    name: Sprecherherkunft CH - DE
+    content: Die Person kommt aus der Schweiz oder aus Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/CH_DE_same_dur/WS20_MZ-AW-VE_0.0_0.8_0.2.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/CH_DE_same_dur/WS5_MZ-AW-VE_0.0_0.5_0.5.wav
+        C2: configs/resources/audio/CH_DE_same_dur/WS20_MZ-AW-VE_0.0_0.6_0.4.wav
+        C3: configs/resources/audio/CH_DE_same_dur/WS5_MZ-AW-VE_0.0_0.8_0.2.wav
+        C4: configs/resources/audio/CH_DE_same_dur/WS21_VE.wav
+        C5: configs/resources/audio/CH_DE_same_dur/WS20_AW.wav
+        C6: configs/resources/audio/CH_DE_same_dur/WS22_MZ-AW-VE_0.0_0.5_0.5.wav
+  - type: mushra
+    id: CH_DE4
+    name: Sprecherherkunft CH - DE
+    content: Die Person kommt aus der Schweiz oder aus Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/CH_DE_same_dur/WS21_MZ-AW-VE_0.0_0.4_0.6.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/CH_DE_same_dur/WS21_MZ-AW-VE_0.0_0.2_0.8.wav
+        C2: configs/resources/audio/CH_DE_same_dur/WS28_MZ-AW-VE_0.0_0.8_0.2.wav
+        C3: configs/resources/audio/CH_DE_same_dur/WS22_MZ-AW-VE_0.0_0.8_0.2.wav
+        C4: configs/resources/audio/CH_DE_same_dur/WS21_MZ-AW-VE_0.0_0.6_0.4.wav
+        C5: configs/resources/audio/CH_DE_same_dur/WS22_AW.wav
+        C6: configs/resources/audio/CH_DE_same_dur/WS20_MZ-AW-VE_0.0_0.2_0.8.wav
+  - type: mushra
+    id: CH_DE5
+    name: Sprecherherkunft CH - DE
+    content: Die Person kommt aus der Schweiz oder aus Österreich?
+    showWaveform: false
+    enableLooping: false 
+    reference: configs/resources/audio/CH_DE_same_dur/WS21_MZ-AW-VE_0.0_0.8_0.2.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    stimuli:
+        C1: configs/resources/audio/CH_DE_same_dur/WS22_VE.wav
+        C2: configs/resources/audio/CH_DE_same_dur/WS22_MZ-AW-VE_0.0_0.6_0.4.wav
+        C3: configs/resources/audio/CH_DE_same_dur/WS28_MZ-AW-VE_0.0_0.5_0.5.wav
+        C4: configs/resources/audio/CH_DE_same_dur/WS20_VE.wav
+        C5: configs/resources/audio/CH_DE_same_dur/WS20_MZ-AW-VE_0.0_0.5_0.5.wav
+        C6: configs/resources/audio/CH_DE_same_dur/WS28_MZ-AW-VE_0.0_0.4_0.6.wav
+  - type: generic
+    id: Einführung_1
+    name: Einführung Teil 2
+    content: Wir erweitern die Fragestellung nun auf alle drei Länder. <br>Im Folgenden sehen Sie einige Beispiele für die Auswahl.
+
+  - type: spatial
+    id : Einfuehrung Example_nur_CH
+    name: Einführung Beispiel 1
+    content: <b>Beispiel 1: </b>Sie meinen zu hören, dass die Person <b>aus der Schweiz</b> kommt. <br>Sie setzen den Punkt daher direkt auf die Ecke des Dreiecks (CH).
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    responses:
+      - type: localization
+        name: i_A
+        label: Beispiel
+        color: 0xff5500      
+        position: [-110,0,85]
+        size: 20
+    views: 
+      - view: top
+        name: i_A
+    objects: 
+      - type: None
+
+  - type: spatial
+    id : Einfuehrung Example_DE_und_AT
+    name: Einführung Beispiel 2
+    content: <b>Beispiel 2: </b>Sie hören, dass die Person nach einer  <b>Mischung zwischen Deutschland und Österreich</b>  klingt, ohne schweizerischen Einfluss. <br> Sie setzen den Punkt auf die Verbindungslinie zwischen DE und AT.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    responses:
+      - type: localization
+        name: i_B
+        label: Beispiel
+        color: 0xff5500      
+        position: [55,0,4]
+        size: 20
+    views: 
+      - view: top
+        name: i_B
+    objects: 
+      - type: None
+
+  - type: spatial
+    id : Einfuehrung Example_DE_und_AT_bisschen_CH
+    name: Einführung Beispiel 3
+    content: <b>Beispiel 3: </b>Sie hören, dass die Person nach einer <b>Mischung zwischen Deutschland und Österreich</b> klingt, aber hören <b>leichten schweizerischen Einfluss</b>. <br>Sie setzen den Punkt von der Verbindungslinie zwischen DE und AT in Richtung CH.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    responses:
+      - type: localization
+        name: i_C
+        label: Beispiel
+        color: 0xff5500      
+        position: [20,0,26]
+        size: 20
+    views: 
+      - view: top
+        name: i_C
+    objects: 
+      - type: None
+
+  # - type: spatial
+  #   id : Einfuehrung Example_DE_und_AT
+  #   name: Einführung Beispiel 2
+  #   content: <li> Beispiel 2: Sie hören, dass die Person nach einer Mischung zwischen Deutschland und Österreich klingt, ohne schweizerischen Einfluss. Sie setzen den Punkt auf die Verbindungslinie zwischen DE und AT.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   responses:
+  #     - type: localization
+  #       name: locB
+  #       label: Beispiel
+  #       color: 0xff5500      
+  #       position: [55,0,4]
+  #       size: 20
+  #   views: 
+  #     - view: top
+  #       position: [0,50,0]
+  #   objects: 
+  #     - type: None
+  #       position: [0,250,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : Einfuehrung Example_DE_und_AT_bisschen_CH
+  #   name: Einführung Beispiel 3
+  #   content: <li> Beispiel 3: Sie hören, dass die Person nach einer Mischung zwischen Deutschland und Österreich klingt, aber hören leichten schweizerischen Einfluss. Sie setzen den Punkt von der Verbindungslinie zwischen DE und AT in Richtung CH.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   responses:
+  #     - type: localization
+  #       name: locB
+  #       label: Beispiel
+  #       color: 0xff5500      
+  #       position: [20,0,26]
+  #       size: 20
+  #   views: 
+  #     - view: top
+  #       position: [0,50,0]
+  #   objects: 
+  #     - type: None
+  #       position: [0,250,-1000]
+  #       rotation: [0,0,180]
+
+  - type: spatial
+    id : test_page1
+    name: Seite 1 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+        C2: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.25_0.25_0.5.wav
+        C3: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.5_0.0_0.5.wav
+        C4: configs/resources/audio/3dim/WS21_MZ-AW-VE_0.33_0.33_0.33.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: None
+
+  - type: spatial
+    id : test_page2
+    name: Seite 2 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS20_MZ-AW-VE_0.0_0.5_0.5.wav
+        C2: configs/resources/audio/3dim/WS22_MZ-AW-VE_0.5_0.5_0.0.wav
+        C3: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.0_0.5_0.5.wav
+        C4: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.5_0.5_0.0.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: None
+
+  - type: spatial
+    id : test_page3
+    name: Seite 3 von 10
+    content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+    framerate: 100
+    roomMeasurements: [300, 300, 300]  # width, height, length
+    randomize: false
+    stimuli:
+        C1: configs/resources/audio/3dim/WS28_MZ-AW-VE_0.25_0.25_0.5.wav
+        C2: configs/resources/audio/3dim/WS5_VE.wav
+        C3: configs/resources/audio/3dim/WS28_VE.wav
+        C4: configs/resources/audio/3dim/WS5_MZ-AW-VE_0.33_0.33_0.33.wav
+    responses:
+      - type: localization
+        name: i_1
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C1    
+        position: [0,0,25]
+        size: 20
+        height: 100
+        depth: 50
+      - type: localization
+        name: i_2
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C2
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_3
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C3
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+      - type: localization
+        name: i_4
+        label: HIER klicken, dann Punkt setzen
+        color: 0xff5500      
+        stimulus: C4
+        position: [0,0,25]
+        size: 20
+        height: 50
+        depth: 30
+    views: 
+      - view: top
+        name: i_1
+      - view: top
+        name: i_2
+      - view: top
+        name: i_3
+      - view: top
+        name: i_4
+    objects: 
+      - type: None
+     
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: spatial
+  #   id : test_page
+  #   name: localization of a stimulus
+  #   content: <li>Woher Sstammen die Sprecher*innen? </li> <li> Klicken Sie zuerst auf den Button, dann innerhalb, bzw entlang den Linien des Dreiecks um die Kugel zu versetzen. Wenn Sie nur eine Mischung von zwei Herkünften hören, setzen Sie den Punkt dementsprechend auf der Linie zwischen den jeweiligen Eckpunkten.</li><li> Bleiben Sie beim Setzen innerhalb des Dreiecks, bzw auf den Linien.
+  #   framerate: 100
+  #   roomMeasurements: [300, 300, 300]  # width, height, length
+  #   randomize: false
+  #   stimuli:
+  #       C1: configs/resources/audio/mono_c1.wav
+  #       C2: configs/resources/audio/WS5_MZ-AW-VE_0.25_0.25_0.5.wav
+  #       C3: configs/resources/audio/mono_c2.wav
+  #       C4: configs/resources/audio/mono_c3.wav
+  #   responses:
+  #     - type: localization
+  #       name: i_1
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C1    
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 100
+  #       depth: 50
+  #     - type: localization
+  #       name: i_2
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C2
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_3
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C3
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #     - type: localization
+  #       name: i_4
+  #       label: HIER klicken, dann Punkt setzen
+  #       color: 0xff5500      
+  #       stimulus: C4
+  #       position: [0,0,25]
+  #       size: 20
+  #       height: 50
+  #       depth: 30
+  #   views: 
+  #     - view: top
+  #       name: i_1
+  #     - view: top
+  #       name: i_2
+  #     - view: top
+  #       name: i_3
+  #     - view: top
+  #       name: i_4
+  #   objects: 
+  #     - type: None
+  #       position: [0,150,-1000]
+  #       rotation: [0,0,180]
+  # - type: finish
+  #   name: Thank you
+  #   content: Thank you for attending
+  #   showResults: false
+  #   writeResults: true
+  #   questionnaire:
+  #       - type: text
+  #         label: name/shortname/nickname
+  #         name: email
+  - type: finish
+    name: Speichern und weiter
+    content: Daten werden zwischengespeichert. <b>Der Test ist noch nicht zu Ende!</b< Bitte füllen Sie aus und klicken Sie auf weiter
+    popupContent: Your results were sent. Goodbye and have a nice day   
+    showResults: false
+    showErrors: true
+    writeResults: true
+    questionnaire:
+        - type: text
+          label: eMail
+          name: email
+          optional: false
+        - type: number
+          label: Age
+          name: age
+          optional: true
+          min: 0
+          max: 100
+          default: 30
+        - type: likert
+          name: gender
+          label: Gender
+          response:
+          - value: female
+            label: Female
+          - value: male
+            label: Male
+          - value: other
+            label: Other
+        - type: long_text
+          label: Feedback
+          name: feedback
+          optional: true

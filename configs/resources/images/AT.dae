@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+  <asset>
+    <contributor />
+    <unit meter="1" />
+  </asset>
+  <library_lights />
+  <library_materials />
+  <library_effects />
+  <library_cameras />
+  <library_geometries>
+    <geometry id="mesh_1">
+      <mesh>
+        <source id="mesh_1-position" name="position">
+          <float_array id="mesh_1-position-array" count="114">29.375 56.875 0 51.1328125 0 0 43.4375 0 0 1.09375 0 0 22.8125 56.875 0 26.09375 47.6171875 0 16.4453125 21.015625 0 14.1796875 14.84375 0 8.828125 0 0 38.0078125 14.84375 0 35.78125 21.015625 0 43.4375 0 14 51.1328125 0 14 29.375 56.875 14 22.8125 56.875 14 1.09375 0 14 16.4453125 21.015625 14 26.09375 47.6171875 14 8.828125 0 14 14.1796875 14.84375 14 38.0078125 14.84375 14 35.78125 21.015625 14 59.0625 56.875 0 103.046875 56.875 0 103.046875 50.703125 0 77.3046875 50.703125 0 59.0625 50.703125 0 84.765625 0 0 77.3046875 0 0 84.765625 50.703125 0 103.046875 50.703125 14 103.046875 56.875 14 59.0625 56.875 14 59.0625 50.703125 14 77.3046875 50.703125 14 77.3046875 0 14 84.765625 0 14 84.765625 50.703125 14 </float_array>
+          <technique_common>
+            <accessor source="#mesh_1-position-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_1-normal" name="normal">
+          <float_array id="mesh_1-normal-array" count="36">0 0 -1 0 0 1 0.9339888691902161 0.35730206966400146 0 0 1 0 -0.9342028498649597 0.3567422926425934 0 0 -1 0 0.9407294988632202 -0.33915776014328003 0 -0.9391422867774963 -0.3435283601284027 0 0.9400752186775208 -0.3409670889377594 0 -0.9396321773529053 -0.3421861529350281 0 -1 0 0 1 0 0 </float_array>
+          <technique_common>
+            <accessor source="#mesh_1-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mesh_1-vertices">
+          <input semantic="POSITION" source="#mesh_1-position" />
+        </vertices>
+        <triangles material="default" count="72">
+          <input semantic="VERTEX" source="#mesh_1-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesh_1-normal" offset="1" />
+          <p>0 0 1 0 2 0 3 0 4 0 0 0 5 0 6 0 3 0 7 0 8 0 3 0 0 0 2 0 9 0 5 0 3 0 0 0 7 0 3 0 6 0 10 0 5 0 0 0 7 0 6 0 10 0 10 0 0 0 9 0 9 0 7 0 10 0 11 1 12 1 13 1 13 1 14 1 15 1 15 1 16 1 17 1 15 1 18 1 19 1 20 1 11 1 13 1 13 1 15 1 17 1 16 1 15 1 19 1 13 1 17 1 21 1 21 1 16 1 19 1 20 1 13 1 21 1 21 1 19 1 20 1 1 2 0 2 12 2 0 2 13 2 12 2 0 3 4 3 13 3 4 3 14 3 13 3 4 4 3 4 14 4 3 4 15 4 14 4 3 5 8 5 15 5 8 5 18 5 15 5 8 6 7 6 18 6 7 6 19 6 18 6 7 5 9 5 19 5 9 5 20 5 19 5 9 7 2 7 20 7 2 7 11 7 20 7 2 5 1 5 11 5 1 5 12 5 11 5 10 3 6 3 21 3 6 3 16 3 21 3 6 8 5 8 16 8 5 8 17 8 16 8 5 9 10 9 17 9 10 9 21 9 17 9 22 0 23 0 24 0 25 0 26 0 22 0 27 0 28 0 25 0 22 0 24 0 29 0 29 0 27 0 25 0 25 0 22 0 29 0 30 1 31 1 32 1 32 1 33 1 34 1 34 1 35 1 36 1 37 1 30 1 32 1 34 1 36 1 37 1 37 1 32 1 34 1 22 10 26 10 32 10 26 10 33 10 32 10 26 5 25 5 33 5 25 5 34 5 33 5 25 10 28 10 34 10 28 10 35 10 34 10 28 5 27 5 35 5 27 5 36 5 35 5 27 11 29 11 36 11 29 11 37 11 36 11 29 5 24 5 37 5 24 5 30 5 37 5 24 11 23 11 30 11 23 11 31 11 30 11 23 3 22 3 31 3 22 3 32 3 31 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_images />
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="node_1" sid="node_1" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#mesh_1" />
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <library_animations />
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
